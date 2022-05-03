@@ -11,7 +11,7 @@ declare function customInitFunctions();
 export class PagesComponent implements OnInit {
 
   constructor( private settingsService: SettingsService) { }
-
+  login:string;
   ngOnInit(): void {
      customInitFunctions();
   }
